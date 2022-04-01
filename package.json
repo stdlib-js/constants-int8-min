@@ -1,0 +1,32 @@
+{
+  "name": "@stdlib/constants-int8-min",
+  "version": "0.0.0",
+  "description": "Minimum signed 8-bit integer.",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/constants-int8-min.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "constant",
+    "const",
+    "min",
+    "minimum",
+    "integer",
+    "int",
+    "int8",
+    "signed",
+    "8-bit"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
