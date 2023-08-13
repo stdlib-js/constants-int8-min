@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../tmp/index.js"],
+  "sourcesContent": ["/** @license Apache-2.0 */\n'use strict';\nvar INT8_MIN = -128|0;\nmodule.exports = INT8_MIN;\n"],
+  "mappings": "aAEA,IAAIA,EAAW,KACf,OAAO,QAAUA",
+  "names": ["INT8_MIN"]
+}
