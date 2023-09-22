@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import INT8_MIN from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-int8-min@deno/mod.js';
+import INT8_MIN from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-int8-min@v0.1.0-deno/mod.js';
 ```
 
 #### INT8_MIN
@@ -67,7 +67,7 @@ var bool = ( INT8_MIN === -128 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import INT8_MIN from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-int8-min@deno/mod.js';
+import INT8_MIN from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-int8-min@v0.1.0-deno/mod.js';
 
 console.log( INT8_MIN );
 // => -128
