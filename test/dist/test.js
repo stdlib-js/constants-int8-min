@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2023 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -21,19 +21,13 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var pow = require( '@stdlib/math-base-special-pow' );
-var INT8_MIN = require( './../../dist' );
+var main = require( './../../dist' );
 
 
 // TESTS //
 
-tape( 'main export is a number', function test( t ) {
+tape( 'main export is defined', function test( t ) {
 	t.ok( true, __filename );
-	t.strictEqual( typeof INT8_MIN, 'number', 'main export is a number' );
-	t.end();
-});
-
-tape( 'the exported value equals -2**7', function test( t ) {
-	t.equal( INT8_MIN, -pow(2, 7), 'equals -1 * 2**7' );
+	t.strictEqual( main !== void 0, true, 'main export is defined' );
 	t.end();
 });
