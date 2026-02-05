@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import INT8_MIN from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-int8-min@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-int8-min/tags). For example,
+
+```javascript
 import INT8_MIN from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-int8-min@v0.2.3-deno/mod.js';
 ```
 
@@ -67,7 +72,7 @@ var bool = ( INT8_MIN === -128 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import INT8_MIN from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-int8-min@v0.2.3-deno/mod.js';
+import INT8_MIN from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-int8-min@deno/mod.js';
 
 console.log( INT8_MIN );
 // => -128
