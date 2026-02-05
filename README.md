@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import INT8_MIN from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-int8-min@esm/index.mjs';
+import INT8_MIN from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-int8-min@v0.2.3-esm/index.mjs';
 ```
 
 #### INT8_MIN
@@ -72,7 +72,7 @@ var bool = ( INT8_MIN === -128 );
 <body>
 <script type="module">
 
-import INT8_MIN from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-int8-min@esm/index.mjs';
+import INT8_MIN from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-int8-min@v0.2.3-esm/index.mjs';
 
 console.log( INT8_MIN );
 // => -128
